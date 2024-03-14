@@ -51,10 +51,17 @@ for (i = 0; i < fruits.length; i++) {
 //      * * *
 //      * * * *
 //      * * * * *
-star = "*";
-for (i = 1; i <= 5; i++) {
-  console.log(star);
-  star = star + "*";
+// star = "*";
+// for (i = 1; i <= 5; i++) {
+//   console.log(star);
+//   star = star + "*";
+// }
+for (i=1;i<=5;i++){
+  star = ""
+  for (j=1;j<=i;j++){
+    star+="*"
+  }
+  console.log(star)
 }
 // 6. Mathematical Operations with Loops:
 //    - Write a JavaScript program to calculate and print the sum of the first 10 natural numbers using a loop.

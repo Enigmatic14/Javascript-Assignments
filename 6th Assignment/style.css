@@ -1,14 +1,17 @@
-tr, th, td, table {
-    border: 1px black solid;
-    border-collapse: collapse;
+tr,
+th,
+td,
+table {
+  border: 1px black solid;
+  border-collapse: collapse;
 }
 table {
-    width:100%
+  width: 100%;
 }
 td {
-    text-align: center;
+  text-align: center;
 }
 
 tr :hover {
-    background-color: rgba(238, 236, 227, 0.726);
+  background-color: rgba(238, 236, 227, 0.726);
 }
