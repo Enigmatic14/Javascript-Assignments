@@ -1,3 +1,4 @@
+// CHAPTER ARRAY
 // 1. Declare an empty array using JS literal notation to store
 // student names in future.
 let studentNamesLiteral = [];
@@ -154,3 +155,19 @@ console.log(newDeviceOut);
 
 let mobilePhones = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
 document.write(`<form><select><option>${mobilePhones[0]}</option><option>${mobilePhones[1]}</option><option>${mobilePhones[2]}</option><option>${mobilePhones[3]}</option><option>${mobilePhones[4]}</option><option>${mobilePhones[5]}</option></select></form>`)
+
+// Chapter 12 & 13
+
+// 1.Write a program that takes a character (number or string)
+// in a variable & checks whether the given input is a
+// number, uppercase letter or lower case letter. (Hint: ASCII
+// codes:- A=65, Z=90, a=97, z=122).
+// let character = prompt("Enter any character");
+character = "A"
+charValue = character.charCodeAt(0);
+if (charValue>=65 && charValue<=90){
+    console.log("Enter character is a uppercase letter")
+}
+else if (charValue>=97 && charValue<=122){
+    console.log("Enter character is a lowercase letter")
+}
