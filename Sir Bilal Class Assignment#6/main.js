@@ -61,7 +61,11 @@ console.log(splitHelloStrArr);
 for (i = splitHelloStrArr.length - 1; i >= 0; i--) {
   console.log(splitHelloStrArr[i]);
 }
-
+reverseHelloStr = "";
+for (i = helloStr.length - 1; i >= 0; i--) {
+  reverseHelloStr=reverseHelloStr+helloStr[i];
+}
+console.log(reverseHelloStr);
 // • Write a loop to print the square of numbers from 1 to 10.
 
 for (i = 1; i <= 10; i++) {
